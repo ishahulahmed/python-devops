@@ -23,5 +23,7 @@ e = "This is also a string"
 f = """This is a multi-line sring"""
 
 # Today's weather is nice
-d = 'Today's weather is nice'
+d = 'Today\'s weather is nice'
 print(d)
+
+d = "Today's weather is nice"
