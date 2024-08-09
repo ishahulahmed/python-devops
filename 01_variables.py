@@ -49,3 +49,46 @@ print(test_set)
 # type() fuction -> prints the datatype of the variable
 print(type(test_dict))
 print(type(print))
+
+# Operations
+# Add
+# Sub
+# Mult
+# Divide
+# Integer division
+# Modulo division
+
+# Add
+a = 42
+b = 45.32
+c = a + b
+print(c)
+
+# Sub
+d = a - b
+print(d)
+
+# Multiply
+e = a * b
+print(e)
+
+f = 12
+g = 3
+h = f / g
+print(h)
+print(h, type(h))
+
+# Integer division
+h = f // g
+print(h)
+print(h, type(h))
+
+# Modulo division
+i = f % g
+print(i)
+
+# Addition
+a = "42"
+b = "43"
+print(a + b) # Concatenation
+
