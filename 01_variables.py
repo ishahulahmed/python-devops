@@ -27,3 +27,25 @@ d = 'Today\'s weather is nice'
 print(d)
 
 d = "Today's weather is nice"
+print(d)
+
+# This is a list
+test_list = ["hello", "world", "python"]
+print(test_list)
+
+# Tuple
+test_tuple = ("hello", "world", "python")
+print(test_tuple)
+
+# Dictionary
+test_dict = {'a': 1, 'b': 2}
+print(test_dict)
+
+# Set
+# consider the values in an arbitrary (random) way 
+test_set = {'a', 'b', 'abc'}
+print(test_set)
+
+# type() fuction -> prints the datatype of the variable
+print(type(test_dict))
+print(type(print))
