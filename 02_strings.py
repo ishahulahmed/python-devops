@@ -30,5 +30,24 @@ print("Lenght of a string:", len_str)
 
 # Method
 sample_str = "hello"
-print(sample_str.capitalize())
+print(sample_str.capitalize()) # "Hello"
+
+# split(), join(), format(), count(),
+# strip(), lstrip(), rstrip()
+
+sample_str = "This is a sample string"
+str_split = sample_str.split() # output: list
+print(str_split, type(str_split))
+
+join_split_str = " ".join(str_split)
+print(join_split_str, type(join_split_str))
+
+count_a = sample_str.count('a')
+print(count_a)
+
+sample_str = "   devops is a very good career choice    "
+strip_str = sample_str.strip() # leading and trailing spaces are removed
+print(strip_str)
+
+
 
