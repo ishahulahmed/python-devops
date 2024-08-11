@@ -34,3 +34,26 @@ print(res_tuple) # ('Ansible', 'Terraform', 'Jenkins', 'Docker', 'K8s', 'Terrafo
 
 res_tuple_1 = sliced_tuple * 2
 print(res_tuple_1) # ('Terraform', 'Jenkins', 'Terraform', 'Jenkins')
+
+# Methods
+k8s_idx = res_tuple.index("K8s")
+print(k8s_idx)
+
+# k8s_idx = res_tuple.index("k8s")
+# print(k8s_idx)
+
+"""
+Traceback (most recent call last):
+  File "d:\devops\repos\python-devops\03_tuples.py", line 42, in <module>
+    k8s_idx = res_tuple.index("k8s")
+              ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: tuple.index(x): x not in tuple
+"""
+
+# Tuple unpacking
+ansible, terraform, jenkins, docker, K8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s") 
+print(ansible, terraform, jenkins, docker, K8s)
+
+ansilbe, *tools, orchestrator = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "DevOps") 
+print(ansilbe, tools, orchestrator)
+print(*tools)
