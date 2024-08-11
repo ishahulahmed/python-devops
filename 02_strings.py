@@ -49,5 +49,15 @@ sample_str = "   devops is a very good career choice    "
 strip_str = sample_str.strip() # leading and trailing spaces are removed
 print(strip_str)
 
+# Strings are immutable
+sample_str = "This is a sample string"
+sample_str[-1] = 'G'
+print(sample_str)
 
-
+"""
+Traceback (most recent call last):
+  File "d:\devops\repos\python-devops\02_strings.py", line 54, in <module>
+    sample_str[-1] = 'G'
+    ~~~~~~~~~~^^^^
+TypeError: 'str' object does not support item assignment
+"""
