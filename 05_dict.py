@@ -35,6 +35,11 @@ sample_dict = {"1": 1, 2: 4, 3: 9}
 print(sample_dict.get(1)) # None (if key is not present)
 # print(sample_dict[1]) # Error because the key is not present
 
+sample_dict = {1: 1, 2: 4, 3: 9}
+sample_dict[4] = 16
+print(sample_dict)
+# {1: 1, 2: 4, 3: 9, 4: 16}
+
 
 
 
